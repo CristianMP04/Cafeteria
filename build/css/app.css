@@ -411,6 +411,8 @@ h3 {
 .header {
   padding: 5rem 0;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media (min-width: 768px) {
   .header {
@@ -444,6 +446,10 @@ h3 {
 
 .header-inicio {
   background-image: url(../img/header_inicio.jpg);
+}
+
+.header-nosotros {
+  background-image: url(../img/header_nosotros.jpg);
 }
 
 .nav-principal {
@@ -524,6 +530,11 @@ h3 {
   font-family: "Bona Nova", serif;
   text-align: center;
   margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .footer-box {
+    margin-bottom: 0;
+  }
 }
 .footer-box h3 {
   font-family: "Bona Nova", serif;
